@@ -259,3 +259,18 @@
 .footer-nav__icon-image:hover{
     transform: scale(1.2);
 }
+
+@media (min-width: 854px){
+
+    .populares__populares{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mariscos__mariscos,
+    .postres__postres{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
