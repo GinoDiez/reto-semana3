@@ -105,3 +105,116 @@
     0 0 1.5rem var(--color-animation-text),
     0 0 2rem var(--color-animation-text);
 }
+
+.populares,
+.mariscos,
+.postres{
+    margin-top: 1rem;
+}
+
+.populares-container,
+.mariscos-container,
+.postres-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 3rem;
+}
+
+.populares__title,
+.mariscos__title,
+.postres__title{
+    font-weight: 600;
+    margin: 2rem;
+    text-shadow: 0 0 1rem var(--color-animation-text),
+    0 0 1.5rem var(--color-animation-text),
+    0 0 2rem var(--color-animation-text);
+}
+
+.populares__populares,
+.mariscos__mariscos,
+.postres__postres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.populares__popular,
+.mariscos__marisco,
+.postres__postre{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.3rem;
+    gap: 0.5rem;
+    background-color: var(--theme-color-1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    border: 0.2rem solid var(--theme-color-2);
+}
+
+.populares__popular-image-container,
+.mariscos__marisco-image-container,
+.postres__postre-image-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+}
+
+.populares__image,
+.mariscos__image,
+.postres__image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.populares__popular-content,
+.mariscos__marisco-content,
+.postres__postre-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.populares__popular-content-title,
+.mariscos__marisco-content-title,
+.postres__postre-content-title{
+    font-weight: 600;
+}
+
+.populares__popular-content-description,
+.mariscos__marisco-content-description,
+.postres__postre-content-description{
+    margin: 0.5rem 1.5rem;
+}
+
+.populares__popular-button-container,
+.mariscos__marisco-button-container,
+.postres__postre-button-container{
+    margin: 0;
+}
+
+.populares__popular-button,
+.mariscos__marisco-button,
+.postres__postre-button{
+    text-align: center;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: var(--theme-color-2);
+    border: 0;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.populares__popular-button:hover,
+.mariscos__marisco-button:hover,
+.postres__postre-button:hover{
+    background-color: var(--text-color);
+}
