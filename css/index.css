@@ -64,3 +64,9 @@
     color: var(--theme-color-2);
     border-bottom: 0.25rem solid var(--color-animation-text);
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
