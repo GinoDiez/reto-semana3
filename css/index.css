@@ -218,3 +218,44 @@
 .postres__postre-button:hover{
     background-color: var(--text-color);
 }
+
+.footer{
+    margin: 1.5rem;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+.footer-nav__text{
+    font-weight: 600;
+}
+
+.footer-nav__links-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3rem;
+    padding: 0;
+    margin: auto;
+}
+
+.footer-nav__links-link{
+    max-width: 50px;
+}
+
+.footer-nav__link-container{
+    max-width: 50px;
+    text-decoration: none;
+}
+
+.footer-nav__icon-image{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.footer-nav__icon-image:hover{
+    transform: scale(1.2);
+}
