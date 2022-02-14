@@ -1,0 +1,9 @@
+:root{
+    scroll-behavior: smooth;
+    --theme-color: black;
+    --text-color: white;
+    --theme-color-1: rgb(66, 4, 4);
+    --theme-color-2: rgb(167, 142, 2);
+    --color-animation-text: rgb(66, 4, 4);
+    --color-box-shadow: rgb(66, 4, 4);
+}
