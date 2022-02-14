@@ -1,13 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Recetas peruanas</title>
 </head>
 
-<body>
-    
+<body class="body">
+
+    <header class="header">
+        <nav class="header-nav">
+            <a href="%" class="header-nav__image-logo-container">
+                <img src="https://cdn-icons-png.flaticon.com/512/330/330497.png" alt="Bandera de Perú" class="header-nav__image-logo animate__animated animate__bounceIn" />
+            </a>
+
+            <ul class="header-nav__links-list">
+                <li class="header-nav__links-link">
+                    <a href="#inicio" class="header-nav__link">Inicio</a>
+                </li>
+                <li class="header-nav__links-link">
+                    <a href="#populares" class="header-nav__link">Populares</a>
+                </li>
+                <li class="header-nav__links-link">
+                    <a href="#mariscos" class="header-nav__link">Mariscos</a>
+                </li>
+                <li class="header-nav__links-link">
+                    <a href="#postres" class="header-nav__link">Postres</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="inicio" id="inicio">
+
+            <div class="inicio-content">
+                <h1 class="inicio-content__title animate__animated animate__zoomIn">Comidas típicas peruanas</h1>
+                <h2 class="inicio-content__subtitle animate__animated animate__zoomIn">Aprende de estas recetas para mejorar tu sazón</h2>
+            </div>
+
+        </section>
+
+        <section class="populares" id="populares">
+
+            <div class="populares-container">
+                <h2 class="populares__title animate__animated animate__bounceIn">Recetas populares</h2>
+                <div class="populares__populares">
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://www.recetips.com/uploads/recetas_81b5869bc01817fb8f5baa93b89392e4.jpg" alt="Causa rellena" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Causa Rellena</h3>
+                            <p class="populares__popular-content-description">
+                                Platillo frío, cremoso y ligero que tiene como protagonistas a la tradicional papa amarilla y al ají amarillo tan reconocido en la región.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://contigotv.pe/wp-content/uploads/2021/03/Cebiche_de_corvina.jpg" alt="Ceviche de pescado" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Ceviche de pescado</h3>
+                            <p class="populares__popular-content-description">
+                                Platillo fresco preparado con pescado crudo marinado en jugo de limón y condimentado con otros ingredientes.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://recetinas.com/wp-content/uploads/2019/10/lomo-saltado.jpg" alt="Lomo saltado" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Lomo saltado</h3>
+                            <p class="populares__popular-content-description">
+                                Platillo servido con trozos grandes de lomo de carne, tomate y cebolla, servidos junto a crocantes papas fritas y graneado arroz.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://iperu.pe/wp-content/uploads/2020/01/papa-rellena-de-carne_800x533.jpg" alt="Papa rellena" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Papa rellena</h3>
+                            <p class="populares__popular-content-description">
+                                Masa frita de papa cocida, rellena de carne de vacuno, pollo, queso, cebollas, aceitunas, huevos duros, entre otros ingredientes picados.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://www.recetips.com/uploads/recetas_ce89af3170d309eea9addbf67a3bc639.jpg" alt="Arroz con pollo" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Arroz con pollo</h3>
+                            <p class="populares__popular-content-description">
+                                Platillo típico preparado con arroz cocinado junto con zanahoria, cebolla, alberjas, choclo y ciertos condimentos, acompañado con una presa de pollo.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="populares__popular">
+                        <figure class="populares__popular-image-container">
+                            <img src="https://www.recetas-argentinas.com/base/stock/Recipe/61-image/61-image_web.jpg" alt="Ají de gallina" class="populares__image" />
+                        </figure>
+                        <div class="populares__popular-content">
+                            <h3 class="populares__popular-content-title">Ají de gallina</h3>
+                            <p class="populares__popular-content-description">
+                                Platillo que consiste en un ají o crema espesa con pechuga de gallina deshilachada y acompañado de arroz, huevo y aceituna.
+                            </p>
+                        </div>
+                        <div class="populares__popular-button-container">
+                            <button class="populares__popular-button">Ver receta</button>
+                        </div>
+                    </article>
+        
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mariscos" id="mariscos">
+
+            <div class="mariscos-container">
+                <h2 class="mariscos__title animate__animated animate__bounceIn">Mariscos</h2>
+                <div class="mariscos__mariscos">
+                    <article class="mariscos__marisco">
+                        <figure class="mariscos__marisco-image-container">
+                            <img src="https://comidasperuanas.net/wp-content/uploads/2015/11/Arroz-con-mariscos.jpg" alt="Arroz con mariscos" class="mariscos__image" />
+                        </figure>
+                        <div class="mariscos__marisco-content">
+                            <h3 class="mariscos__marisco-content-title">Arroz con mariscos</h3>
+                            <p class="mariscos__marisco-content-description">
+                                Su color y sabor intensos han hecho que sea uno de los platos fuertes preferidos por los comensales que gustan de la comida marina.
+                            </p>
+                        </div>
+                        <div class="mariscos__marisco-button-container">
+                            <button class="mariscos__marisco-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="mariscos__marisco">
+                        <figure class="mariscos__marisco-image-container">
+                            <img src="https://comidasperuanas.net/wp-content/uploads/2019/01/Parihuela.jpg" alt="Parihuela" class="mariscos__image" />
+                        </figure>
+                        <div class="mariscos__marisco-content">
+                            <h3 class="mariscos__marisco-content-title">Parihuela</h3>
+                            <p class="mariscos__marisco-content-description">
+                                Platillo hecho a base de un concentrado de pescados y mariscos que nos va aportar gran cantidad de proteínas de alto valor biológico.
+                            </p>
+                        </div>
+                        <div class="mariscos__marisco-button-container">
+                            <button class="mariscos__marisco-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="mariscos__marisco">
+                        <figure class="mariscos__marisco-image-container">
+                            <img src="https://2.bp.blogspot.com/-649uvSshjx8/WWO0XYr_XNI/AAAAAAAAJ3Q/l6XXAlHC7UEaUPvuriKGOPk4W9jQ70BwACLcBGAs/s650/chilcano-de-pescado.jpg" alt="Chilcano de pescado" class="mariscos__image" />
+                        </figure>
+                        <div class="mariscos__marisco-content">
+                            <h3 class="mariscos__marisco-content-title">Chilcano de pescado</h3>
+                            <p class="mariscos__marisco-content-description">
+                                Rico caldo hecho a base de pescado y aromatizado con hierbas frescas que le aportan un sabor especial.
+                            </p>
+                        </div>
+                        <div class="mariscos__marisco-button-container">
+                            <button class="mariscos__marisco-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="mariscos__marisco">
+                        <figure class="mariscos__marisco-image-container">
+                            <img src="https://cocina-casera.com/wp-content/uploads/2018/01/Chicharr%C3%B3n-de-pescado.jpg" alt="Chicharron de pescado" class="mariscos__image" />
+                        </figure>
+                        <div class="mariscos__marisco-content">
+                            <h3 class="mariscos__marisco-content-title">Chicharron de pescado</h3>
+                            <p class="mariscos__marisco-content-description">
+                                Platillo se caracteriza por su sabor y su textura tan peculiar. Se acostumbra a servirlo como plato principal.
+                            </p>
+                        </div>
+                        <div class="mariscos__marisco-button-container">
+                            <button class="mariscos__marisco-button">Ver receta</button>
+                        </div>
+                    </article>
+        
+                </div>
+            </div>
+
+        </section>
+
+        <section class="postres" id="postres">
+
+            <div class="postres-container">
+                <h2 class="postres__title animate__animated animate__bounceIn">Postres</h2>
+                <div class="postres__postres">
+                    <article class="postres__postre">
+                        <figure class="postres__postre-image-container">
+                            <img src="https://s1.eestatic.com/2015/02/07/cocinillas/cocinillas_9259185_116007331_854x640.jpg" alt="Arroz con leche" class="postres__image" />
+                        </figure>
+                        <div class="postres__postre-content">
+                            <h3 class="postres__postre-content-title">Arroz con leche</h3>
+                            <p class="postres__postre-content-description">
+                                Postre hecho a base de arroz, el cual es uno de los ingredientes más utilizados en la gastronomía peruana.
+                            </p>
+                        </div>
+                        <div class="postres__postre-button-container">
+                            <button class="postres__postre-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="postres__postre">
+                        <figure class="postres__postre-image-container">
+                            <img src="https://ideasparaviajar.com/wp-content/uploads/2020/10/receta-de-mazamorra-morada-930x620.jpg" alt="Mazamorra morada" class="postres__image" />
+                        </figure>
+                        <div class="postres__postre-content">
+                            <h3 class="postres__postre-content-title">Mazamorra morada</h3>
+                            <p class="postres__postre-content-description">
+                                Postre típico de la gastronomía peruana elaborado a base de maíz morado concentrado con fécula.
+                            </p>
+                        </div>
+                        <div class="postres__postre-button-container">
+                            <button class="postres__postre-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="postres__postre">
+                        <figure class="postres__postre-image-container">
+                            <img src="https://imgmedia.buenazo.pe/1200x660/buenazo/original/2021/06/28/60d9ed6316b9b76817715bef.jpg" alt="Milhojas" class="postres__image" />
+                        </figure>
+                        <div class="postres__postre-content">
+                            <h3 class="postres__postre-content-title">Milhojas</h3>
+                            <p class="postres__postre-content-description">
+                                Pastel rectangular formado por varias capas de hojaldreque se alternan de crema pastelera y/o nata montada.
+                            </p>
+                        </div>
+                        <div class="postres__postre-button-container">
+                            <button class="postres__postre-button">Ver receta</button>
+                        </div>
+                    </article>
+
+                    <article class="postres__postre">
+                        <figure class="postres__postre-image-container">
+                            <img src="https://www.comida-peruana.com/base/stock/Recipe/11-image/11-image_web.jpg" alt="Alfajores" class="postres__image" />
+                        </figure>
+                        <div class="postres__postre-content">
+                            <h3 class="postres__postre-content-title">Alfajores</h3>
+                            <p class="postres__postre-content-description">
+                                Postre constituido por dos galletitas, galletas o masa horneada, separadas entre sí por manjar blanco.
+                            </p>
+                        </div>
+                        <div class="postres__postre-button-container">
+                            <button class="postres__postre-button">Ver receta</button>
+                        </div>
+                    </article>
+        
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <h3 class="footer-nav__text">Síguenos en redes sociales para recibir tus recetas diariamente</h3>
+            <ul class="footer-nav__links-list">
+                <li class="footer-nav__links-link">
+                    <a href="%" target="_blank" class="footer-nav__link-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" class="footer-nav__icon-image" />
+                    </a>
+                </li>
+                
+                <li class="footer-nav__links-link">
+                    <a href="%" target="_blank" class="footer-nav__link-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="footer-nav__icon-image" />
+                    </a>
+                </li>
+
+                <li class="footer-nav__links-link">
+                    <a href="%" target="_blank" class="footer-nav__link-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="Youtube" class="footer-nav__icon-image" />
+                    </a>
+                </li>
+            </ul>
+            <p>Desarrollado por Gino Diez 👨‍💻 &copy; 2022 </p>
+        </nav>
+    </footer>
+
 </body>
 </html>
