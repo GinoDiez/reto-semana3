@@ -7,3 +7,11 @@
     --color-animation-text: rgb(66, 4, 4);
     --color-box-shadow: rgb(66, 4, 4);
 }
+
+.body{
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
