@@ -70,3 +70,38 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    background-image: url(http://aromasperuanos.com/web/wp-content/uploads/2013/07/Buffet-rocoto-para-web2-1024x492.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+.inicio-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.inicio-content__title{
+    font-size: 4rem;
+    text-shadow: 0 0 1rem var(--color-animation-text),
+    0 0 1.5rem var(--color-animation-text),
+    0 0 2rem var(--color-animation-text);
+}
+
+.inicio-content__subtitle{
+    font-size: 2rem;
+    margin: 0 1rem 1rem 1rem;
+    text-shadow: 0 0 1rem var(--color-animation-text),
+    0 0 1.5rem var(--color-animation-text),
+    0 0 2rem var(--color-animation-text);
+}
